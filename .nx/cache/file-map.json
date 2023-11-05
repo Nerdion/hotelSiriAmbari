@@ -1,0 +1,650 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.3",
+  "deps": {
+    "@swc/helpers": "~0.5.2",
+    "antd": "^5.11.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.18.0",
+    "@nx/eslint": "17.0.3",
+    "@nx/eslint-plugin": "17.0.3",
+    "@nx/js": "17.0.3",
+    "@nx/react": "17.0.3",
+    "@nx/vite": "17.0.3",
+    "@nx/workspace": "17.0.3",
+    "@swc-node/register": "~1.6.7",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "@vitejs/plugin-react": "~4.0.0",
+    "@vitest/coverage-c8": "~0.32.0",
+    "@vitest/ui": "~0.32.0",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jsdom": "~22.1.0",
+    "nx": "17.0.3",
+    "prettier": "^2.6.2",
+    "typescript": "~5.1.3",
+    "vite": "~4.3.9",
+    "vitest": "~0.32.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "115921568586939073"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3009140142791806673"
+      },
+      {
+        "file": ".nx/cache/cloud/2310.19.6.hotfix2/index.js",
+        "hash": "11105368040345262562"
+      },
+      {
+        "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/daemon/process-run-end.js",
+        "hash": "17993887837223109277"
+      },
+      {
+        "file": ".nx/cache/cloud/2310.19.6.hotfix2/lib/heartbeat/heartbeat-process.js",
+        "hash": "8101618490335397045"
+      },
+      {
+        "file": ".nx/cache/cloud/verify.lock",
+        "hash": "12621014054119083946"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "6553329726946657341"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "8715813067183825915"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "5954641648918719043"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "1014881249010115153"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "14235013844169192873"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/18350636035061193386",
+        "hash": "3154843390898028458"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "8039257054949885508"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "2740312386359769014"
+      },
+      {
+        "file": "README.md",
+        "hash": "9480830528248104545"
+      },
+      {
+        "file": "apps/.DS_Store",
+        "hash": "5307371105204241031"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15436967687354352567"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3984028289604603103"
+      },
+      {
+        "file": "package.json",
+        "hash": "9129840921776881866"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6475540257439139038",
+        "hash": "4766715875290380680"
+      }
+    ],
+    "projectFileMap": {
+      "webapp": [
+        {
+          "file": "apps/webapp/.DS_Store",
+          "hash": "16589454157215770208"
+        },
+        {
+          "file": "apps/webapp/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/webapp/index.html",
+          "hash": "16578902386930368180"
+        },
+        {
+          "file": "apps/webapp/project.json",
+          "hash": "113639381259542365"
+        },
+        {
+          "file": "apps/webapp/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/webapp/src/App.css",
+          "hash": "11002705378545869224"
+        },
+        {
+          "file": "apps/webapp/src/App.jsx",
+          "hash": "5326947164400979601",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:aos"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/Styles/accomo.css",
+          "hash": "17502615055897369301"
+        },
+        {
+          "file": "apps/webapp/src/Styles/eventform.css",
+          "hash": "18333088060760371785"
+        },
+        {
+          "file": "apps/webapp/src/Styles/footer.css",
+          "hash": "9859713661862968687"
+        },
+        {
+          "file": "apps/webapp/src/Styles/gallery.css",
+          "hash": "4744808286872804032"
+        },
+        {
+          "file": "apps/webapp/src/Styles/intro.css",
+          "hash": "16795307242302957862"
+        },
+        {
+          "file": "apps/webapp/src/Styles/navbar.css",
+          "hash": "3774164579062363861"
+        },
+        {
+          "file": "apps/webapp/src/Styles/nearByPlaces.css",
+          "hash": "664715696856280272"
+        },
+        {
+          "file": "apps/webapp/src/Styles/offers.css",
+          "hash": "12605533894075387847"
+        },
+        {
+          "file": "apps/webapp/src/Styles/rangePicker.css",
+          "hash": "12239805667618614408"
+        },
+        {
+          "file": "apps/webapp/src/Styles/reservation.css",
+          "hash": "18287089615407304054"
+        },
+        {
+          "file": "apps/webapp/src/Styles/test.css",
+          "hash": "7716425023555550040"
+        },
+        {
+          "file": "apps/webapp/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/webapp/src/assets/1.jpeg",
+          "hash": "15520126145475123303"
+        },
+        {
+          "file": "apps/webapp/src/assets/2.jpg",
+          "hash": "5513203358185665804"
+        },
+        {
+          "file": "apps/webapp/src/assets/3.jpeg",
+          "hash": "6991771749406636610"
+        },
+        {
+          "file": "apps/webapp/src/assets/Belurubane.png",
+          "hash": "17273431527156691501"
+        },
+        {
+          "file": "apps/webapp/src/assets/Heroimage1.jpeg",
+          "hash": "10773301693542525143"
+        },
+        {
+          "file": "apps/webapp/src/assets/Heroimage2.jpeg",
+          "hash": "10314428857035017168"
+        },
+        {
+          "file": "apps/webapp/src/assets/Heroimage3.jpeg",
+          "hash": "17164024067151688689"
+        },
+        {
+          "file": "apps/webapp/src/assets/acc1.jpeg",
+          "hash": "1510624346122336193"
+        },
+        {
+          "file": "apps/webapp/src/assets/acc2.jpeg",
+          "hash": "1754532357629847311"
+        },
+        {
+          "file": "apps/webapp/src/assets/acc3.jpg",
+          "hash": "11373060929348386102"
+        },
+        {
+          "file": "apps/webapp/src/assets/background.png",
+          "hash": "17163393467128920192"
+        },
+        {
+          "file": "apps/webapp/src/assets/background2.svg",
+          "hash": "6171656312761759452"
+        },
+        {
+          "file": "apps/webapp/src/assets/backwater.jpeg",
+          "hash": "1752915835091215661"
+        },
+        {
+          "file": "apps/webapp/src/assets/c1.png",
+          "hash": "14878562081203579408"
+        },
+        {
+          "file": "apps/webapp/src/assets/c2.png",
+          "hash": "3143854803110054292"
+        },
+        {
+          "file": "apps/webapp/src/assets/cartoon-image.png",
+          "hash": "16586932432888306636"
+        },
+        {
+          "file": "apps/webapp/src/assets/catering1.jpg",
+          "hash": "11088357784133819693"
+        },
+        {
+          "file": "apps/webapp/src/assets/catering2.jpg",
+          "hash": "12538189333746162823"
+        },
+        {
+          "file": "apps/webapp/src/assets/chandlier.jpeg",
+          "hash": "16796344907692975333"
+        },
+        {
+          "file": "apps/webapp/src/assets/chiklihole.jpg",
+          "hash": "3163008833538121154"
+        },
+        {
+          "file": "apps/webapp/src/assets/cul1.jpeg",
+          "hash": "17152545853153493089"
+        },
+        {
+          "file": "apps/webapp/src/assets/cul2.jpeg",
+          "hash": "17487358319716283841"
+        },
+        {
+          "file": "apps/webapp/src/assets/cul3.jpeg",
+          "hash": "8606276872470391787"
+        },
+        {
+          "file": "apps/webapp/src/assets/dubare.jpg",
+          "hash": "5958799525804977442"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement1.jpeg",
+          "hash": "919565711478178405"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement1.jpeg.jpg",
+          "hash": "919565711478178405"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement2.jpeg",
+          "hash": "15571996227448940652"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement2.jpeg.jpg",
+          "hash": "15571996227448940652"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement2.jpg",
+          "hash": "15471919630856372274"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement3.jpeg",
+          "hash": "2094772362061341283"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement3.jpeg.jpg",
+          "hash": "2094772362061341283"
+        },
+        {
+          "file": "apps/webapp/src/assets/eventmanagement4.jpeg",
+          "hash": "11606662988288387938"
+        },
+        {
+          "file": "apps/webapp/src/assets/food1.jpg",
+          "hash": "6624613493235035444"
+        },
+        {
+          "file": "apps/webapp/src/assets/food2.jpg",
+          "hash": "4277626909597147782"
+        },
+        {
+          "file": "apps/webapp/src/assets/food4.jpg",
+          "hash": "2763937814012642377"
+        },
+        {
+          "file": "apps/webapp/src/assets/garden.jpeg",
+          "hash": "5996972590915245627"
+        },
+        {
+          "file": "apps/webapp/src/assets/goldenTemple.jpg",
+          "hash": "10226947808804439322"
+        },
+        {
+          "file": "apps/webapp/src/assets/goldentemple2.jpg",
+          "hash": "15281129562647524460"
+        },
+        {
+          "file": "apps/webapp/src/assets/guid1.jpg",
+          "hash": "2414603577139675609"
+        },
+        {
+          "file": "apps/webapp/src/assets/guid2.jpg",
+          "hash": "17987266086428742363"
+        },
+        {
+          "file": "apps/webapp/src/assets/hall.jpg",
+          "hash": "14871101110651666633"
+        },
+        {
+          "file": "apps/webapp/src/assets/harangidam.jpg",
+          "hash": "8764551247485583418"
+        },
+        {
+          "file": "apps/webapp/src/assets/heading-design-removebg-preview.png",
+          "hash": "3010342298892211645"
+        },
+        {
+          "file": "apps/webapp/src/assets/hotelday.jpg",
+          "hash": "16977398486518983776"
+        },
+        {
+          "file": "apps/webapp/src/assets/logo.png",
+          "hash": "770355640501793758"
+        },
+        {
+          "file": "apps/webapp/src/assets/lux2.jpg",
+          "hash": "12760917144423429899"
+        },
+        {
+          "file": "apps/webapp/src/assets/maam.avif",
+          "hash": "7818363481281158838"
+        },
+        {
+          "file": "apps/webapp/src/assets/nisargadhama.jpg",
+          "hash": "5056271744803773091"
+        },
+        {
+          "file": "apps/webapp/src/assets/travellers1.jpg",
+          "hash": "7539022744307419953"
+        },
+        {
+          "file": "apps/webapp/src/assets/travellers2.jpg",
+          "hash": "12059692679547467289"
+        },
+        {
+          "file": "apps/webapp/src/assets/travellers3.jpg",
+          "hash": "633942686501924283"
+        },
+        {
+          "file": "apps/webapp/src/components/EvenWeddings.jsx",
+          "hash": "4894338979058576565",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/EventWeddingForm.jsx",
+          "hash": "3575207460111490256",
+          "deps": [
+            "npm:react",
+            "npm:antd"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/Experiance.jsx",
+          "hash": "4552604294130006364",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/Facilities.jsx",
+          "hash": "15840407326006079881",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:aos"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/GallaryView.jsx",
+          "hash": "8502509948284124939",
+          "deps": [
+            "npm:antd",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/GoogleMap.jsx",
+          "hash": "7138674537833986107",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/NearByPlaces.jsx",
+          "hash": "10913482521361352529",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/Offers.jsx",
+          "hash": "11765758738520708294",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewACNormalRoom.jsx",
+          "hash": "10632504603356295401",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewACStandard.jsx",
+          "hash": "1538582775822414187",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewACSuitRoom.jsx",
+          "hash": "4456956122177484420",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewNonACRoom.jsx",
+          "hash": "8098966402666758065",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewNonACStandard.jsx",
+          "hash": "5662313930414529526",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/ViewNonACSuite.jsx",
+          "hash": "8153696989305240303",
+          "deps": [
+            "npm:react",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/accomodation.jsx",
+          "hash": "332259628698933618",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:aos"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/data.jsx",
+          "hash": "1346021093908769386"
+        },
+        {
+          "file": "apps/webapp/src/components/footer.jsx",
+          "hash": "6879646876617175581",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/intro.jsx",
+          "hash": "2015300332264576196",
+          "deps": [
+            "npm:react",
+            "npm:bootstrap",
+            "npm:react-bootstrap",
+            "npm:aos"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/navbar.jsx",
+          "hash": "6378354147572787600",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/reservation.jsx",
+          "hash": "7174171894616950719",
+          "deps": [
+            "npm:react",
+            "npm:dayjs",
+            "npm:antd",
+            "npm:react-bootstrap",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/slideshow.jsx",
+          "hash": "5273511949808527984",
+          "deps": [
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/components/test.jsx",
+          "hash": "16805957848376431540",
+          "deps": [
+            "npm:react",
+            "npm:bootstrap",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/main.tsx",
+          "hash": "7237000615245217570",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/webapp/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/webapp/tsconfig.json",
+          "hash": "12673692306575617267"
+        },
+        {
+          "file": "apps/webapp/tsconfig.spec.json",
+          "hash": "17874504027954657085"
+        },
+        {
+          "file": "apps/webapp/vite.config.ts",
+          "hash": "7186694066297102631",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        },
+        {
+          "file": "apps/webapp/src/constants.ts",
+          "hash": "18228670391868473599"
+        }
+      ]
+    }
+  }
+}
